@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff009999"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widget71"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Life Cycle Explorer "
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:text="Finish()"
+        android:textStyle="bold" >
+    </Button>
+
+    <TextView
+        android:id="@+id/txtToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff006699"
+        android:text="ToDo" >
+    </TextView>
+
+</LinearLayout>

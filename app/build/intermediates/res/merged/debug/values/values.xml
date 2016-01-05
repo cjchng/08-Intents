@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_button">Add</string>
+    <string name="app_name">Intents</string>
+    <string name="exit_label">Exit</string>
+    <string name="first_label">Explicit</string>
+    <string name="fourth_label">Explicit in another App</string>
+    <string name="go_button">Go</string>
+    <string name="hello">Demo Explicit and Implicit Intents</string>
+    <string name="second_label">Maps</string>
+    <string name="third_label">Place Phone Call</string>
+</resources>

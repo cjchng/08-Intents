@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+<TextView  
+         android:text="@string/hello"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="25dip"
+         android:textColor="#ffff0000"
+         android:textSize="20sp" />
+         
+      <DigitalClock
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	android:layout_gravity="center"
+         	android:textColor="#ff00ff00"
+         	 />
+       
+      <Button
+         android:id="@+id/first_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/first_label" />
+      <Button
+         android:id="@+id/second_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/second_label" />
+         
+      <Button
+         android:id="@+id/third_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/third_label" />
+      <Button
+         android:id="@+id/fourth_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/fourth_label" />
+      <Button
+         android:id="@+id/exit_button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/exit_label" />
+         
+         
+         
+</LinearLayout>
