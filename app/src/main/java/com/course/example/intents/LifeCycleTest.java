@@ -10,8 +10,8 @@ import android.widget.Toast;
 
 public class LifeCycleTest extends Activity {
 
-	Button btnFinish;
-	TextView txtToDo, txtMsg;
+	private Button btnFinish;
+	private TextView txtToDo, txtMsg;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
