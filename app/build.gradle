@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 android {
     compileSdkVersion 'Google Inc.:Google APIs:23'
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
         applicationId "com.course.example.intents"
         minSdkVersion 17
-        targetSdkVersion 17  
+        targetSdkVersion 17
     }
 
     buildTypes {
