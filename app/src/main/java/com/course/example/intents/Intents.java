@@ -11,6 +11,7 @@ package com.course.example.intents;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.ComponentName;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.net.Uri;
 import android.view.View;
@@ -18,7 +19,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Intents extends Activity implements OnClickListener {
-    
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,8 +43,9 @@ public class Intents extends Activity implements OnClickListener {
         exitButton.setOnClickListener(this);
         
     }
-    
-    public void onClick(View v) {
+
+    //avoids runtime check for permission to CALL_PHONE
+    public void onClick(View v) throws SecurityException {
         switch (v.getId()) { 
         
         //explicit intent
@@ -73,7 +75,7 @@ public class Intents extends Activity implements OnClickListener {
         	Uri uri3 = Uri.parse("tel:6175551212");
         	Intent i3 = new Intent(Intent.ACTION_CALL,uri3);
             startActivity(i3);
-           break;
+            break;
            
          //explicit intent for an Activity in another application
          //format is ComponentName(package, class)
